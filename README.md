@@ -42,20 +42,6 @@ This project leverages the following technologies:
 
 ---
 
-## 📁 Project Structure
-
-agentic-ui-testing/
-├── ScanDOM/ # DOM scanning logic and scripts
-├── Site-A/ # Baseline site assets / samples
-├── Site-B/ # Variant site assets / samples
-├── Site-Tests/ # UI tests comparing Site-A vs Site-B
-├── documentations/ # Docs, guides, and reference material
-├── .gitignore # Files & folders to ignore in Git
-├── .hintrc # Linter / HTML hint config
-├── README.md # Project documentation
-└── (other config or support files)
-
-
 ### 📌 Directory Purpose
 
 - **ScanDOM/** – Contains the DOM scanner tooling that captures UI structure and screenshots from target sites.  

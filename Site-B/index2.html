@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login App B</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #eef2f3;
+    }
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+    input, button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <form id="loginForm" onsubmit="login(event)">
+    <h2>Site B Login</h2>
+    <input id="user-name" placeholder="Username" />
+    <input id="pass-word" type="password" />
+    <button id="login-button" type="submit">Login</button>
+  </form>
+
+  <script>
+    function login(e) {
+      e.preventDefault();
+      window.location.href = "dashboard2.html";
+    }
+  </script>
+</body>
+</html>
